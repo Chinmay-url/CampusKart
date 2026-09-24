@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+* Copy.env
+*- Copy.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+cache/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# User uploads and generated files
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/receipts/*
+!backend/receipts/.gitkeep
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Windows scripts (optional - keep if you want them in repo)
+# *.bat
+
+# Package lock files (optional - usually committed for apps)
+# package-lock.json
+# yarn.lock
+
+# Environment backup files
+*.env.backup
